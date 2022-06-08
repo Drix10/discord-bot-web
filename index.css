@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1409%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(21%2c 22%2c 24%2c 1)'%3e%3c/rect%3e%3cuse xlink:href='%23SvgjsSymbol1416' x='0' y='0'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1416' x='720' y='0'%3e%3c/use%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1409'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpath d='M-1 0 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0z' id='SvgjsPath1412'%3e%3c/path%3e%3cpath d='M-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0z' id='SvgjsPath1415'%3e%3c/path%3e%3cpath d='M-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' id='SvgjsPath1413'%3e%3c/path%3e%3cpath d='M2 -2 L-2 2z' id='SvgjsPath1411'%3e%3c/path%3e%3cpath d='M6 -6 L-6 6z' id='SvgjsPath1410'%3e%3c/path%3e%3cpath d='M30 -30 L-30 30z' id='SvgjsPath1414'%3e%3c/path%3e%3c/defs%3e%3csymbol id='SvgjsSymbol1416'%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='30' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='30' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='90' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='90' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='90' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='90' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='90' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='150' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='150' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='150' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='150' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='150' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='210' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='210' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='210' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='210' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='210' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='210' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='210' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='210' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='210' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='210' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='270' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='270' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='270' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='270' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='270' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='270' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='270' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='270' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='270' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='270' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='330' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='330' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='330' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='330' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='330' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='330' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='330' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='330' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='330' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='330' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='390' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='390' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='390' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='390' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='390' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='450' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='450' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='450' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='450' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='450' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='450' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='450' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='450' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='450' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='450' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='510' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='510' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='510' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='510' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='510' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='570' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='570' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='570' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='570' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='570' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='570' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='630' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='630' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='630' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='630' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='630' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='630' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='690' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='690' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='690' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='690' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='690' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='690' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3c/symbol%3e%3c/svg%3e");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(21, 22, 24);
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+#loader {
+    width: 100%;
+    height: 100vh;
+    background-color: #151618;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loader .loading {
+    width: 10vw;
+    height: 50px;
+    position: relative;
+}
+
+#loader .loading span {
+    background-color: #0F0F10;
+    border-radius: 50px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    bottom: 0;
+    position: absolute;
+    transform: translateX(64px);
+    animation: loading 2s ease-in-out both infinite;
+}
+
+#loader .loading span:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #5865F2;
+    border-radius: inherit;
+    animation: loading2 2s ease-in-out both infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 16px;
+        transform: translateX(0px);
+    }
+
+    40% {
+        width: 100%;
+        transform: translateX(0px);
+    }
+
+    80% {
+        width: 16px;
+        transform: translateX(64px);
+    }
+
+    90% {
+        width: 100%;
+        transform: translateX(0px);
+    }
+
+    100% {
+        width: 16px;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes loading2 {
+    0% {
+        transform: translateX(0px);
+        width: 16px;
+    }
+
+    40% {
+        transform: translateX(0%);
+        width: 80%;
+    }
+
+    80% {
+        width: 100%;
+        transform: translateX(0px);
+    }
+
+    90% {
+        width: 80%;
+        transform: translateX(15px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        width: 16px;
+    }
+}
+
+#page {
+    display: none;
+}
+
+@keyframes pageShow {
+    from {
+        filter: grayscale(100%);
+    }
+
+    to {
+        filter: grayscale(0%);
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0E0E0F !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5865F2 !important;
+    border-radius: 100px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #202225 !important;
+}
+
+nav {
+    display: flex;
+    height: 55px;
+    width: 100%;
+    background: #0f0f10;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    flex-wrap: wrap;
+    animation: pageShow .3s ease-in-out;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold !important;
+    color: #fff;
+}
+
+.logo img {
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: -50px;
+    border: 2px solid #5865F2;
+}
+
+#botLogo {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    border: 2px solid #5865F2;
+}
+
+
+#botLogo {
+    background-color: #5865F2;
+    box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 4px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #fff;
+    background: #1d1e21;
+}
+
+nav ul li a.active:hover {
+    background-color: #5865F2;
+}
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .openMenu {
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.invite {
+    background-color: #5865F2;
+}
+
+@media (max-width: 1000px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+
+    nav .logo {
+        font-size: 30px;
+        font-weight: bold !important;
+        color: #fff;
+        margin-left: 5px;
+    }
+
+    .logo img {
+        position: absolute;
+        border-radius: 50%;
+        height: 40px;
+        margin-top: 2px;
+        margin-left: -45px;
+        border: 2px solid #5865F2;
+    }
+}
+
+@media(max-width: 900px) {
+    nav {
+        padding: 0 40px 0 50px;
+    }
+
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #0F0F10;
+        transition: top .5s ease;
+        display: none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+
+    }
+
+    nav .openMenu {
+        display: block;
+    }
+
+    .icons i {
+        display: inline-block;
+        padding: 12px;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background: #0f0f10;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        /* transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    nav ul li a {
+        display: block;
+        font-size: 20px;
+        /* transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+
+    }
+
+    nav ul li a.active,
+    nav ul li a:hover {
+        background: none;
+        color: #5865F2;
+    }
+
+    .invite {
+        background-color: #0F0F10;
+    }
+
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+    width: 100%;
+    padding: 0 30px;
+    color: #fff;
+    animation: pageShow .3s ease-in-out;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    animation: pageShow .3s ease-in-out;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    animation: pageShow .3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    color: #fff;
+    background-color: #1D1E21;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, .2);
+    animation: pageShow .3s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #5865F2;
+}
+
+.btn-secondary {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #5865F2;
+    box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+}
+
+.btn-secondary:hover {
+    background-color: #1D1E21;
+    background-color: rgba(88, 101, 242, .7);
+}
+
+
+@media (max-width: 335px) {
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+@media (max-width: 420px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 14px;
+        margin: 2px;
+        padding: 8px 13px;
+    }
+}

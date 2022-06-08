@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1409%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(21%2c 22%2c 24%2c 1)'%3e%3c/rect%3e%3cuse xlink:href='%23SvgjsSymbol1416' x='0' y='0'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsSymbol1416' x='720' y='0'%3e%3c/use%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1409'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpath d='M-1 0 a1 1 0 1 0 2 0 a1 1 0 1 0 -2 0z' id='SvgjsPath1412'%3e%3c/path%3e%3cpath d='M-3 0 a3 3 0 1 0 6 0 a3 3 0 1 0 -6 0z' id='SvgjsPath1415'%3e%3c/path%3e%3cpath d='M-5 0 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0z' id='SvgjsPath1413'%3e%3c/path%3e%3cpath d='M2 -2 L-2 2z' id='SvgjsPath1411'%3e%3c/path%3e%3cpath d='M6 -6 L-6 6z' id='SvgjsPath1410'%3e%3c/path%3e%3cpath d='M30 -30 L-30 30z' id='SvgjsPath1414'%3e%3c/path%3e%3c/defs%3e%3csymbol id='SvgjsSymbol1416'%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='30' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='30' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='30' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='30' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='90' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='90' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='90' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='90' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='90' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='90' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='150' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='150' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='150' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='150' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='150' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='150' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='210' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='210' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='210' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='210' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='210' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='210' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='210' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='210' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='210' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='210' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='270' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='270' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='270' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='270' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='270' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='270' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='270' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='270' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='270' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='270' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='330' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='330' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='330' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='330' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='330' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='330' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='330' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='330' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='330' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='330' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='390' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='390' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='390' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='390' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='390' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='390' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='450' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='450' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='450' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='450' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='450' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='450' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='450' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='450' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='450' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='450' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='510' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='510' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='510' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='510' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='510' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='510' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='570' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1412' x='570' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='570' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='570' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='570' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='570' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='570' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='630' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='630' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='630' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='630' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='630' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='630' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1414' x='630' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)' stroke-width='3'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='690' y='30' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='90' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='150' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='690' y='210' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1415' x='690' y='270' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='690' y='330' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='390' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1413' x='690' y='450' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1410' x='690' y='510' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3cuse xlink:href='%23SvgjsPath1411' x='690' y='570' stroke='rgba(88%2c 101%2c 242%2c 1)'%3e%3c/use%3e%3c/symbol%3e%3c/svg%3e");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eee;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #0E0E0F !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5865F2 !important;
+    border-radius: 100px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #202225 !important;
+}
+
+@keyframes fadein {
+    from {
+        filter: grayscale(100%)
+    }
+
+    to {
+        filter: none
+    }
+}
+
+a {
+    text-decoration: none !important;
+    font-weight: 500;
+}
+
+body {
+    animation: 1s ease-out 0s 1 fadein;
+}
+
+nav {
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 39px;
+    line-height: 42px;
+    margin-bottom: 50px;
+
+}
+
+p {
+    color: #ccc;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    color: #eee;
+    margin-block-start: 40px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.row ul li::before {
+    content: "\2022";
+    color: #5865F2;
+    font-weight: lighter;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.row {
+    max-width: 100rem;
+    margin: auto;
+    display: block;
+    background-color: rgba(21, 22, 24, .7);
+    animation: pageShow .3s ease-in-out;
+}
+
+.wrapper {
+    display: flex;
+    animation: pageShow .3s ease-in-out;
+}
+
+
+.sidepanel {
+    margin-top: 50px;
+    width: 200px;
+    padding: 20px;
+    background-color: #0F0F10;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100vh;
+    margin-right: 240px;
+    animation: pageShow .3s ease-in-out;
+    margin-left: 0px !important;
+}
+
+.sidepanel::-webkit-scrollbar {
+    width: 4px;
+    margin-left: 5px;
+}
+
+.sidepanel a.title {
+    text-align: center;
+    display: block;
+    padding-bottom: 12px;
+
+    color: #eee;
+    background-color: #1D1E21;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.sidepanel a.section {
+    font-size: 13px;
+    text-align: left;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #eee;
+    padding: 2px 2px;
+    padding-left: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.sidepanel a.sub-section {
+    font-size: 12px;
+    text-align: left;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #eee;
+    padding: 2px 2px;
+    padding-left: 30px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+}
+
+.sidepanel a.title:hover,
+.sidepanel a.section:hover,
+.sidepanel a.sub-section:hover {
+    background-color: #1D1E21;
+}
+
+.right-col {
+    margin-top: 100px;
+    text-align: left;
+    width: 100%;
+    margin-left: 240px;
+    margin-right: 40px;
+}
+
+.right-col h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.right-col ul {
+    margin-left: 28px;
+    line-height: 28px;
+}
+
+.right-col h2 {
+    font-size: 21px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+}
+
+.right-col p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 36px;
+}
+
+.right-col a {
+    color: #5865F2;
+    text-decoration: underline;
+}
+
+.right-col ol {
+    margin-block-start: 10px;
+}
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+.top-info {
+    font-size: 17px;
+    text-align: center;
+
+}
+
+.divider {
+    width: 160px;
+    height: 4px;
+    background: #5865F2;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    animation: pageShow .3s ease-in-out;
+}
+
+.left {
+    margin: 20px 0;
+}
+
+
+.footer a {
+    color: #eee;
+}
+
+.resp-break {
+    display: none;
+}
+
+.break {
+    display: block;
+}
+
+.space {
+    height: 30px;
+    width: 100%;
+    float: left;
+}
+
+.double {
+    height: 60px;
+}
+
+.links {
+    float: left;
+    padding-bottom: 8px;
+}
+
+.sidepanel a.title:hover {
+    background-color: #5865F2;
+}
+
+.invite {
+    background-color: #5865F2;
+    font-weight: 500;
+}
+
+.invite:hover {
+    background-color: #5865F2;
+    box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(88, 101, 242, .5);
+}
+
+
+/* Break Points */
+
+
+/* Extra small-small devices (phones, 420px and down) */
+@media only screen and (max-width: 420px) {
+    .navbar {
+        height: auto;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .links {
+        float: none;
+    }
+
+}
+
+
+
+/* Extra small devices (phones, 650px and down) */
+@media (max-width: 900px) {
+
+    nav {
+        position: relative;
+    }
+
+    .logo {
+        width: 115px;
+        margin: 0px 0px;
+    }
+
+    .resp-break {
+        display: block;
+        margin: 17px;
+    }
+
+    .main-col {
+        width: 100%;
+    }
+
+
+    .wrapper {
+        display: block;
+        padding: 20px;
+    }
+
+    .sidepanel {
+        width: 100vw;
+        position: fixed;
+        display: none;
+        height: 100vh;
+        margin-top: -75px;
+        margin-left: -20px !important;
+    }
+
+    .right-col {
+        margin-top: 40px;
+        text-align: left;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .collapse {
+        padding: 8px;
+        background-color: rgba(29, 30, 33, 0.75);
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        margin: -70px -15px;
+        z-index: 1;
+        display: none;
+    }
+
+    .expand {
+        padding: 8px;
+        background-color: #1D1E21;
+        border-radius: 5px;
+        cursor: pointer;
+        position: fixed;
+        margin: -15px -15px;
+        z-index: 1;
+        display: block;
+    }
+
+    /* .divider,
+    .left {
+        display: none;
+    } */
+
+    .sidepanel a.title {
+        background-color: #0F0F10;
+    }
+
+    nav .openMenu {
+        font-size: 25px;
+        display: none;
+        cursor: pointer;
+        color: #eee;
+    }
+
+    nav .mainMenu .closeMenu,
+    .icons i {
+        font-size: 2rem;
+        display: none;
+        cursor: pointer;
+        color: #eee;
+    }
+}
+
+.codeBlock {
+    background-color: #0F0F10;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 2px 7px;
+    border-radius: 5px;
+}
+
+.cmdCollapse .codeBlock {
+    background-color: #141617;
+}
+
+.container ul li {
+    font-weight: bolder;
+}
+
+.collapsible::after {
+    content: " +";
+    cursor: pointer;
+    border: none;
+    transition: max-height 0.3s ease;
+}
+
+.collapsible.active:after {
+    content: " -";
+    transition: max-height 0.3s ease;
+}
+
+.cmdCollapse {
+    margin: 5px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: #0F0F10;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}

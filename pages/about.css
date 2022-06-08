@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin :0 
+}
+a {
+    text-decoration: none;
+    color: #5865F2;
+}
+
+.About-us p {
+	text-align: center;
+	font-weight: lighter;
+	font-size: 30px;
+}
+
+.About-us div .content{
+	text-align: center;
+}
+
+.Team p{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: capitalize;
+	font-size: 27px;
+	
+
+}
+
+.devs{
+	display: flex;
+	justify-content: center;
+
+}
+.devs-card{
+	flex-wrap: wrap;
+	flex: 50%;
+	align-content: center;
+	flex-direction: row;
+	margin: 50px;
+
+
+}
+
+.devs-images img{
+    border-radius: 50%;
+    border: 2px solid #5865F2;
+    height: 200px;
+    width: 200px;
+}
+
+
+.name a{
+color: #5865F2;
+font-weight: bolder;
+font-size: 20px;
+}
+
+.post p{
+	color: rgba(255,255,255,0.8);
+	font-weight: lighter;
+	font-size: 15px
+	}
