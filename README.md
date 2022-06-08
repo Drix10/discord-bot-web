@@ -1,4 +1,4 @@
 Best discord bot website!
 
 
-https://dsc.gg/diegobotcoders
+https://dsc.gg/bothub
