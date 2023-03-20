@@ -1,6 +1,6 @@
 ## Discord bot website Template
 
-It's not created by me, but it is free to use & open source by real owner. 
+It is free to use & open source by real owner. 
 
 ### Steps to run:
 
